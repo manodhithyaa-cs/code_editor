@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>
+            Code Editor
+        </title>
+        <link rel="stylesheet" type="text/css" href="./main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <label>
+                    <i class="fa-brands fa-html5"></i>
+                    HTML
+                </label>
+                <textarea id="html"></textarea>
+                
+                <label>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    CSS
+                </label>
+                <textarea id="css"></textarea>
+                
+                <label>
+                    <i class="fa-brands fa-js"></i>
+                    Js
+                </label>
+                <textarea id="js"></textarea>
+            </div>
+            <div class="right">
+                <button id="run">
+                    <i class="fa-solid fa-play"></i>
+                    Output
+                </button>
+                <iframe id="output"></iframe>
+            </div>
+        </div>
+    </body>
+    <script src="./main.js"></script>
+</html>
